@@ -1,0 +1,1869 @@
+jsondata = {
+    "id" : "avtr_9d58037b-23c7-4c9c-adbd-b1338178cd81",
+    "name" : "PurpleMomo",
+    "parameters" : [
+        {
+            "name" : "Face",
+            "input" : {
+                "address" : "/avatar/parameters/Face",
+                "type" : "Int"
+            },
+            "output" : {
+                "address" : "/ableton/trackselect",
+                "type" : "Float"
+            }
+        },
+        {
+            "name" : "VelocityZ",
+            "output" : {
+                "address" : "/avatar/parameters/VelocityZ",
+                "type" : "Float"
+            }
+        }
+    ]
+}
+
+jsondata2 = {
+    "id": "avtr_ae3320f0-60b1-4893-ab67-71e92eff08cd",
+    "name": "yureigogo",
+    "parameters": [
+      {
+        "name": "AvatarProp/DistanceTooFar",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/DistanceTooFar",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/DistanceTooFar",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "AvatarProp/RightHand",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/RightHand",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/RightHand",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/LeftHand",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/LeftHand",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/LeftHand",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Grabbing_Stretch",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_Stretch",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_Stretch",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Grabbing_Angle",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_Angle",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_Angle",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Grabbing_IsGrabbed",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_IsGrabbed",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Grabbing_IsGrabbed",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/Z-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Z-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Z-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/Z+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Z+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Z+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/Y-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Y-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Y-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/Y+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Y+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Y+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/X-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/X-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/X-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/X+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/X+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/X+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Ring/Prox",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Prox",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Ring/Prox",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/RingSync",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/RingSync",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/RingSync",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/Z-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Z-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Z-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/Z+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Z+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Z+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/Y-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Y-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Y-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/Y+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Y+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Y+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/X-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/X-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/X-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/X+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/X+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/X+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Middle/Prox",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Prox",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Middle/Prox",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/MiddleSync",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/MiddleSync",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/MiddleSync",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/Z-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Z-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Z-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/Z+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Z+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Z+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/Y-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Y-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Y-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/Y+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Y+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Y+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/X-",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/X-",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/X-",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/X+",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/X+",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/X+",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/Trackers/Hand/Prox",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Prox",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Trackers/Hand/Prox",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AvatarProp/HandSync",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/HandSync",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/HandSync",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/VersionMatch",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/VersionMatch",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/VersionMatch",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/Version/8",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/Version/8",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/Version/8",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/FrotOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/FrotOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/FrotOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/FrotOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/FrotOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/FrotOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/PenOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/PenOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/PenOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/PenSelf",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/PenSelf",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/PenSelf",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/TouchOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/TouchOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/TouchSelf",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchSelf",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchSelf",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/nocturne Dps/TouchSelfClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchSelfClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/nocturne_Dps/TouchSelfClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Katana/KatanaGrab",
+        "input": {
+          "address": "/avatar/parameters/Katana/KatanaGrab",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Katana/KatanaGrab",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Katana/SayaGrab",
+        "input": {
+          "address": "/avatar/parameters/Katana/SayaGrab",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Katana/SayaGrab",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/VersionMatch",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/VersionMatch",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/VersionMatch",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/Version/9",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/Version/9",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/Version/9",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenOthersNewTip",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersNewTip",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersNewTip",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenOthersNewRoot",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersNewRoot",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersNewRoot",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenSelfNewTip",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenSelfNewTip",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenSelfNewTip",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenSelfNewRoot",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenSelfNewRoot",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenSelfNewRoot",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/FrotOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/FrotOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/FrotOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/PenOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/PenOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/TouchOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/TouchOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/TouchSelfClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchSelfClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchSelfClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Orf/Orifice/TouchSelf",
+        "input": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchSelf",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Orf/Orifice/TouchSelf",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/VersionMatch",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/VersionMatch",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/VersionMatch",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/Version/8",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/Version/8",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/Version/8",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/FrotOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/FrotOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/FrotOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/FrotOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/FrotOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/FrotOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/PenOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/PenOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/PenOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/PenSelf",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/PenSelf",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/PenSelf",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/TouchOthers",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchOthers",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchOthers",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/TouchOthersClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchOthersClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchOthersClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/TouchSelf",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchSelf",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchSelf",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "OGB/Pen/Dick Dps/TouchSelfClose",
+        "input": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchSelfClose",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/OGB/Pen/Dick_Dps/TouchSelfClose",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "VF1_Go/ThirdPersonMirror",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/ThirdPersonMirror",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/ThirdPersonMirror",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "VF1_Go/ThirdPerson",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/ThirdPerson",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/ThirdPerson",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "VF1_Go/Horizon",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/Horizon",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/Horizon",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "VF1_Go/ScaleFloat",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/ScaleFloat",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/ScaleFloat",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "VF1_Go/JumpAndFall",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/JumpAndFall",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/JumpAndFall",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "VF1_Go/Locomotion",
+        "input": {
+          "address": "/avatar/parameters/VF1_Go/Locomotion",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_Go/Locomotion",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Go/Stationary",
+        "input": {
+          "address": "/avatar/parameters/Go/Stationary",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Go/Stationary",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Go/Float",
+        "input": {
+          "address": "/avatar/parameters/Go/Float",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Go/Float",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "VF1_VRCEmote",
+        "input": {
+          "address": "/avatar/parameters/VF1_VRCEmote",
+          "type": "Int"
+        },
+        "output": {
+          "address": "/avatar/parameters/VF1_VRCEmote",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "AvatarProp/Enable",
+        "input": {
+          "address": "/avatar/parameters/AvatarProp/Enable",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/AvatarProp/Enable",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "l_butt",
+        "input": {
+          "address": "/avatar/parameters/l_butt",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/l_butt",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "r_butt",
+        "input": {
+          "address": "/avatar/parameters/r_butt",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/r_butt",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Gloves_on_Top",
+        "input": {
+          "address": "/avatar/parameters/Gloves_on_Top",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Gloves_on_Top",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Thigh_Highs",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Thigh_Highs",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Thigh_Highs",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Tail/9",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Tail/9",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Tail/9",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Tail/2",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Tail/2",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Tail/2",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Tail/1",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Tail/1",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Tail/1",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Straps",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Straps",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Straps",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Skin/Red",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Skin/Red",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Skin/Red",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Skin/Tanned",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Skin/Tanned",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Skin/Tanned",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Skin/White",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Skin/White",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Skin/White",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Sclera/White",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Sclera/White",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Sclera/White",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Sclera/Red",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Sclera/Red",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Sclera/Red",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Sclera/Black",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Sclera/Black",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Sclera/Black",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Sandals/Regular",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Sandals/Regular",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Sandals/Regular",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Sandals/Wooden",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Sandals/Wooden",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Sandals/Wooden",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Rings",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Rings",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Rings",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Piercing/Nips",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Piercing/Nips",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Piercing/Nips",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Piercing/Lips/R",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/R",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/R",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Piercing/Lips/M",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/M",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/M",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Piercing/Lips/L",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/L",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Piercing/Lips/L",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Piercing/Belly",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Piercing/Belly",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Piercing/Belly",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Pens",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Pens",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Pens",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Pasties",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Pasties",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Pasties",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/Sleeves",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/Sleeves",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/Sleeves",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/Panties",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/Panties",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/Panties",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/Neck",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/Neck",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/Neck",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/Gloves",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/Gloves",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/Gloves",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/Chest",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/Chest",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/Chest",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Outfit/BreastCover",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Outfit/BreastCover",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Outfit/BreastCover",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Nails",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Nails",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Nails",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Mask/Face",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Mask/Face",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Mask/Face",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Mask/Head",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Mask/Head",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Mask/Head",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Kimono_Open",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Kimono_Open",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Kimono_Open",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Kimono",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Kimono",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Kimono",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Katana",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Katana",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Katana",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Head Particle",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Head_Particle",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Head_Particle",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Horn/R",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Horn/R",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Horn/R",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Horn/Ring",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Horn/Ring",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Horn/Ring",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Horn/L",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Horn/L",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Horn/L",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Sticks",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Sticks",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Sticks",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Pin",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Pin",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Pin",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Ponytail",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Ponytail",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Ponytail",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Longer",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Longer",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Longer",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Long",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Long",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Long",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Hair/Bun",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Hair/Bun",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Hair/Bun",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "GPUPaused",
+        "input": {
+          "address": "/avatar/parameters/GPUPaused",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/GPUPaused",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/GPU",
+        "input": {
+          "address": "/avatar/parameters/Toggles/GPU",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/GPU",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Lenses",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Lenses",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Lenses",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Glasses",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Glasses",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Glasses",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Gag",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Gag",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Gag",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Fan/Double",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Fan/Double",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Fan/Double",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Fan/Single",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Fan/Single",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Fan/Single",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Ears_Yurei",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Ears_Yurei",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Ears_Yurei",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Earrings",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Earrings",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Earrings",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Collar",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Collar",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Collar",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Bikini",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Bikini",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Bikini",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Belt",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Belt",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Belt",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toggles/Animal_Ears",
+        "input": {
+          "address": "/avatar/parameters/Toggles/Animal_Ears",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toggles/Animal_Ears",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Orifice/Mouth",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Orifice/Mouth",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Orifice/Mouth",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Orifice/HandL",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Orifice/HandL",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Orifice/HandL",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Orifice/HandR",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Orifice/HandR",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Orifice/HandR",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Orifice/Vag",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Orifice/Vag",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Orifice/Vag",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Orifice/Anal",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Orifice/Anal",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Orifice/Anal",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Penetrator",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Penetrator",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Penetrator",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/BDragon_Scale",
+        "input": {
+          "address": "/avatar/parameters/Lewds/BDragon_Scale",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/BDragon_Scale",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Lewds/BDragon_World",
+        "input": {
+          "address": "/avatar/parameters/Lewds/BDragon_World",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/BDragon_World",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/BDragon",
+        "input": {
+          "address": "/avatar/parameters/Lewds/BDragon",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/BDragon",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Lewds/Futa Scale",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Futa_Scale",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Futa_Scale",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Lewds/Futa",
+        "input": {
+          "address": "/avatar/parameters/Lewds/Futa",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Lewds/Futa",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Katana/Katana Holding",
+        "input": {
+          "address": "/avatar/parameters/Katana/Katana_Holding",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Katana/Katana_Holding",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Katana/Saya Holding",
+        "input": {
+          "address": "/avatar/parameters/Katana/Saya_Holding",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Katana/Saya_Holding",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toss/Bounce",
+        "input": {
+          "address": "/avatar/parameters/Toss/Bounce",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/Bounce",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Toss/Gravity",
+        "input": {
+          "address": "/avatar/parameters/Toss/Gravity",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/Gravity",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Toss/Velocity",
+        "input": {
+          "address": "/avatar/parameters/Toss/Velocity",
+          "type": "Float"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/Velocity",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Toss/Throwing",
+        "input": {
+          "address": "/avatar/parameters/Toss/Throwing",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/Throwing",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toss/SpringJointS",
+        "input": {
+          "address": "/avatar/parameters/Toss/SpringJointS",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/SpringJointS",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Toss/SpringJointD",
+        "input": {
+          "address": "/avatar/parameters/Toss/SpringJointD",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/Toss/SpringJointD",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "isLoaded",
+        "input": {
+          "address": "/avatar/parameters/isLoaded",
+          "type": "Bool"
+        },
+        "output": {
+          "address": "/avatar/parameters/isLoaded",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Dance",
+        "input": {
+          "address": "/avatar/parameters/Dance",
+          "type": "Int"
+        },
+        "output": {
+          "address": "/avatar/parameters/Dance",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "VelocityZ",
+        "output": {
+          "address": "/avatar/parameters/VelocityZ",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "VelocityY",
+        "output": {
+          "address": "/avatar/parameters/VelocityY",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "VelocityX",
+        "output": {
+          "address": "/avatar/parameters/VelocityX",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "InStation",
+        "output": {
+          "address": "/avatar/parameters/InStation",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Seated",
+        "output": {
+          "address": "/avatar/parameters/Seated",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "AFK",
+        "output": {
+          "address": "/avatar/parameters/AFK",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Upright",
+        "output": {
+          "address": "/avatar/parameters/Upright",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "AngularY",
+        "output": {
+          "address": "/avatar/parameters/AngularY",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Grounded",
+        "output": {
+          "address": "/avatar/parameters/Grounded",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "Earmuffs",
+        "output": {
+          "address": "/avatar/parameters/Earmuffs",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "MuteSelf",
+        "output": {
+          "address": "/avatar/parameters/MuteSelf",
+          "type": "Bool"
+        }
+      },
+      {
+        "name": "VRMode",
+        "output": {
+          "address": "/avatar/parameters/VRMode",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "TrackingType",
+        "output": {
+          "address": "/avatar/parameters/TrackingType",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "GestureRightWeight",
+        "output": {
+          "address": "/avatar/parameters/GestureRightWeight",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "GestureRight",
+        "output": {
+          "address": "/avatar/parameters/GestureRight",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "GestureLeftWeight",
+        "output": {
+          "address": "/avatar/parameters/GestureLeftWeight",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "GestureLeft",
+        "output": {
+          "address": "/avatar/parameters/GestureLeft",
+          "type": "Int"
+        }
+      },
+      {
+        "name": "Voice",
+        "output": {
+          "address": "/avatar/parameters/Voice",
+          "type": "Float"
+        }
+      },
+      {
+        "name": "Viseme",
+        "output": {
+          "address": "/avatar/parameters/Viseme",
+          "type": "Int"
+        }
+      }
+    ]
+  }
