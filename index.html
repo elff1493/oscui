@@ -10,13 +10,57 @@
     <link rel="stylesheet" href="./css/inputs.css">
     <link rel="icon" href="img/favicon.png">
   </head>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.151.3/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.151.3/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="x-shader/x-vertex" id="vertexShader">
+
+    attribute float size;
+
+    varying vec3 vColor;
+
+    void main() {
+
+      vColor = color;
+
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+
+      gl_PointSize = size * ( 300.0 / -mvPosition.z );
+
+      gl_Position = projectionMatrix * mvPosition;
+
+    }
+
+  </script>
+
+  <script type="x-shader/x-fragment" id="fragmentShader">
+
+    uniform sampler2D pointTexture;
+
+    varying vec3 vColor;
+
+    void main() {
+
+      gl_FragColor = vec4( vColor, 1.0 );
+
+      gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+
+    }
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+  <script type="module" src="main.mjs"></script>
   <script type="text/javascript" src="testdata.json"></script>
-  <script src="uigen.js"></script>
+
 
   
-  <body onload="load()">
-    <div id="dy-content"></div>
-    <div id="folders"></div>
+  <body>
+    <div id="avi"></div>
     
   </body>
 </html>

@@ -26,9 +26,9 @@ function insert_in_folder(content, path){
         
         });
     }
-        console.log(n);
+        //console.log(n);
         if (n?.length && i){
-            console.log("head set", head, n[0]);
+            //console.log("head set", head, n[0]);
             head = n[0];
         }
         
@@ -39,10 +39,10 @@ function insert_in_folder(content, path){
 
 function gen_folder(path) {
     path = path.replace(/^\//, "").split("/").slice(0, -1);
-    console.log(path);
+    //console.log(path);
     //path = path.map((s, i) => path.slice(0, i + 1).join('/'))
     head = document.getElementById("folders");
-    console.log("head is", head)
+    //console.log("head is", head)
     for (const i of path){
 
         //console.log( head.getElementsByTagName("details"));
@@ -59,13 +59,13 @@ function gen_folder(path) {
         
         });
     }
-        console.log(n);
+        //console.log(n);
         if (n?.length && i){
-            console.log("head set", head, n[0]);
+            //console.log("head set", head, n[0]);
             head = n[0];
         }
         else{
-            console.log("head unset", head, n);
+            //console.log("head unset", head, n);
 
             head.innerHTML += folder_template(i);
             head = head.querySelectorAll("details")[0]
@@ -74,7 +74,7 @@ function gen_folder(path) {
     }
 }
 function folder_template(sum){
-    console.log(sum, "log")
+    //console.log(sum, "log")
     return `<details>
     <summary>${sum}</summary>
            
@@ -111,7 +111,12 @@ function sendosc(path, value) {
 
     console.log(value);
 }
+var socket = null;
+
+var avi_info = []
+var avi_data = {}
 function load() {
+    
     setui();
 }
 
@@ -132,12 +137,12 @@ function setui() {
 
     
     for(var index of jsondata["parameters"]){
-        console.log(index)
+        //console.log(index)
         if (index?.["input"])
             gen_folder(index["input"]["address"]);
     }
     for(var index of jsondata["parameters"]){
-        console.log(index)
+        //console.log(index)
         if (index?.["input"])
         {
             if (index["input"]["type"] == "Bool")
